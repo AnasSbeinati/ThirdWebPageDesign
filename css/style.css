@@ -1,0 +1,243 @@
+#wrapper {
+	width: 1000px;
+	background-color: #fff;
+	min-height: 1000px;
+	margin: 0 auto;
+} 
+#header {
+	height: 133px;
+	width: 100%;
+	background: url(../images/header-bg.png) repeat-x;
+} 
+#logo {
+	margin-top: 66px;
+	margin-left: 20px;
+	float: left;
+}
+#logo img {
+	width: 278px;
+	height: 60px;
+} 
+#slinks {
+	float: right;
+	margin-top: 85px;
+	margin-right: 20px;
+} 
+#slinks img{
+	width: 40px;
+	height: 40px;
+}
+#slider {
+	width: 100%;
+	height: 250px;
+}  
+#slider img {
+	width: 100%;
+	height: 250px;
+}
+#menue {
+	width: 1000px;
+	height: 78px;
+	background: url(../images/menue-bg.png) repeat-x;
+}
+#menue ul{
+
+} 
+#menue ul li{
+	float: left;
+	min-width: 126px;
+	text-align: center;
+	padding: 20px;
+	line-height: 19px;
+	background: url(../images/menue-separetor.png) no-repeat right;
+} 
+#menue ul li:last-child{
+	background:0;
+}
+
+#menue ul li a {
+	color: #333;
+	font-size: 17px;
+	font-family: Tahoma;
+} 
+#menue ul li:hover a,#menue ul li:first-child a{
+	color: #f90707;
+
+}
+#menue ul li a span{
+	font-size: 14px;
+	font-family: Tahoma;
+	text-align: center;
+}
+#menue ul li:first-child a span,#menue ul li:hover a span{
+	color: #f3d794;
+}
+#blocks {
+	width: 960px;
+	padding: 0 20px;
+	margin: 10px 0;
+	height: 328px;
+} 
+.block {
+	width: 306px;
+	height: 315px;
+	float: left;
+	background: url(../images/yellow-block-bg.png) no-repeat;
+	margin-left: 20px;
+}
+.block:first-child {
+	margin-left: 0;
+} 
+.block:first-child,.block:last-child {
+	background: url(../images/red-block-bg.png) no-repeat;
+}
+.block h1 {
+	font-size: 17px;
+	font-family: Tahoma;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+}
+.block h2 {
+	font-size: 72px;
+	color: #fff;
+	line-height: 152px;
+	text-align: center;
+}
+.block p {
+	text-align: justify;
+	margin: 5px;
+	color: #fff;
+}
+#contents {
+	width: 960px;
+	padding: 0 20px;
+	height: 418px;
+} 
+#who {
+	width: 633px;
+	margin-top: 30px;
+	height: 380px;
+	float: left;
+} 
+#who img{
+	margin-left: 20px;
+	float: left;
+}
+#who h1{
+	margin-top: 45px;
+	margin-bottom: 20px;
+	float: right;
+	font-size: 17px;
+	font-family: Tahoma;
+	color: #f91616;
+}
+#who p{
+	width: 633px;
+	text-align: justify;
+	float: left;
+	font-family: Tahoma;
+	font-size: 14px;
+	line-height: 130%;
+}
+#send {
+	width: 266px;
+	height: 340px;
+	background: url(../images/send-message-bg.png) no-repeat;
+	float: right;
+	margin-top: 38px;
+	padding: 20px;
+	text-align: center;
+} 
+#send h1{
+	font-size: 17px;
+	font-family: Tahoma;
+	color: #fc1d1d;
+	margin-left: 66px;
+	margin-bottom: 15px;
+	float: left;
+}
+#send form{
+}
+#send input[type="text"]{
+	width: 256px;
+	height: 39px;
+	background: url(../images/input1-bg.png) repeat-x;
+	border: 1px solid #dddcdc;
+	margin-bottom: 12px;
+	padding-right: 10px;
+}
+#send input[type="submit"]{
+	width: 174px;
+	height: 35px;
+	border: 0;
+	background: url(../images/send.png) repeat-x ;
+}
+#send input[type="textarea"]{
+	width: 256px;
+	height: 158px;
+	background: url(../images/input2-bg.png) repeat-x ;
+	border: 1px solid #dddcdc;
+	margin-bottom: 12px;
+	padding-right: 10px;
+}
+#exhs {
+	width: 960px;
+	text-align: center;
+	margin-top: 30px;
+	padding: 0 20px;
+} 
+#exhs h1{
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.exh {
+	width: 200px;
+	height: 150px;
+    float: left;
+    margin-left: 53px;
+} 
+
+.exh img {
+	width: 200px;
+	height: 90px;
+}
+.exh h2{
+	color: #fa4c4c;
+	font-size: 17px;
+	font-family: Tahoma;
+}
+#upper-shadow {
+	width: 864px;
+	height: 26px;
+	background: url(../images/down-shadow.png) no-repeat;
+	text-align: center;
+	clear: both;
+	margin-left: 50px;
+	margin-bottom: 12px;
+}
+#lower-shadow {
+	width: 864px;
+	height: 26px;
+	background: url(../images/upper-shadow.png) no-repeat;
+	text-align: center;
+	clear: both;
+	margin-left: 50px;
+}
+#footer {
+	width: 1000px;
+	height: 40px;
+	padding-top: 20px;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 17px;
+	color:#333;
+}
+#footer a{
+	color: #fa4c4c; 
+}
+.clear {
+	width: 100%;
+	height: 1px;
+}
